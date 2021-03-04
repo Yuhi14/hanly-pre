@@ -8,7 +8,7 @@
       :face-image-url="face_image_url"
       editable
     />
-    <BaseButton is-txt @click="logout">ログアウト</BaseButton>
+    <BaseButton @click="logout" is-txt>ログアウト</BaseButton>
   </div>
 </template>
 
